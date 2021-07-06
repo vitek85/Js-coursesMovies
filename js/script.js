@@ -4,7 +4,6 @@
 
 const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
-console.log(numberOfFilms);
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -14,9 +13,6 @@ const personalMovieDB = {
     privat: false
 
 };
-
-console.log(personalMovieDB);
-
 
 
 const a = prompt('Один из последних просмотренных фильмов?');
